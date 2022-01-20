@@ -1,0 +1,32 @@
+.AskButtonContainer{
+    position: relative;
+    margin: -15px 10px -50px 280px;
+}
+.AskButtonContainer button{
+    border: 2px solid white;
+    display: flex;
+    font-size: 15px;
+    text-align: center;
+    padding: 2px 5px 2px 5px;
+    flex-direction: row;
+    outline: none;
+    color: white;
+    font-weight:900 ;
+    border-radius: 9px;
+    background-color:rgb(182, 0, 0) ;
+}
+.AskButtonContainer button:hover{
+    border: none;
+    outline: none;
+    color: rgb(182, 0, 0);
+    border: 2px solid rgb(182, 0, 0);
+    background: none;
+}
+.AskButtonContainer button:active{
+    border: none;
+    outline: none;
+    color: rgb(182, 0, 0);
+    border: 2px solid rgb(182, 0, 0);
+    background: none;
+    transform: translateY(1px);
+}

@@ -1,0 +1,45 @@
+.symptom-label, .med-label, .medH-label, .vac-label, .reportWith-label, .reportingFor-label{
+    display: flex;
+}
+
+.form-control-label{
+    margin-top: 0;
+}
+.Coronaform{
+    margin-bottom: 1rem;
+    border: none;
+    width: auto;
+    height: auto;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+/* #nameRel, #displayOtherSymptoms, #displayOtherMed, #displayCT{
+    display: none;
+} */
+.area{
+    margin: 10px;
+}
+.form{
+    max-width: none;
+    width: 40%;
+}
+.modal-footer{
+    display: block;
+    min-height: 74px;
+}
+.Select{
+    width: 50%;
+}
+input[type="file"]{
+    color: transparent;
+}
+.modal.show .modal-dialog{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

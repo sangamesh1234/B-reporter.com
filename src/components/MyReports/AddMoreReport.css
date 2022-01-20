@@ -1,0 +1,197 @@
+.wrapper{
+    margin: 0;
+    width: 10%;
+
+}
+
+.AddReportForm {
+  min-height: 500px;
+  height: 560px;
+  margin: 0px 0px 0px 00px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+}
+  
+ .AddReportForm .form-wrapper {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: rgba(228, 233, 238, 0.774);
+    color: black;
+    border: grey;
+    font-size: 15px;
+    font-weight: 900;
+  }
+  .AddReportForm .form-wrapper h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font: fantasy;
+  }
+  
+  .AddReportForm .form-wrapper form {
+    width: 500px;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  
+  .AddReportForm .form-wrapper h1 {
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .AddReportForm .form-wrapper label {
+    font-size: 0.8em;
+    margin-bottom: 0.25em;
+    color: black;
+    font-weight: lighter;
+  }
+  
+  .AddReportForm .form-wrapper input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+  }
+  
+  .AddReportForm .form-wrapper input::placeholder {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: rgb(138, 101, 101);
+  }
+  
+  .AddReportForm .form-wrapper input.error {
+    border: 1px solid red;
+  }
+  
+  .AddReportForm .errorMessage {
+    color: red;
+    font-size: 0.75em;
+    display: relative;
+  }
+  .AddReportForm .form-wrapper textarea::placeholder {
+    font-size: 1.2em;
+    font-weight: lighter;
+    text-align: start;
+    color: rgb(138, 101, 101);
+  }
+  .AddReportForm .file,
+  .AddReportForm .description,
+  .AddReportForm .category,
+  .AddReportForm .Media{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .AddReportForm .TextArea{
+      height: 100px;
+      border-radius: 5px;
+      border-color: rgb(199, 196, 196);
+  }
+  .AddReportForm .TextArea:focus{
+    outline: none;
+  }
+  .AddReportForm .MediaInput{
+    background-color: white;
+    color: black;
+    align-content: center;
+  }
+  
+  .AddReportForm .createAccount {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .AddReportForm .createAccount button {
+    background-color: #519e8a;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 100%;
+    margin-top: 1em;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+  }
+  
+  .AddReportForm .createAccount button:hover {
+    color: #519e8a;
+    background-color: #fff;
+    border: 2px solid #519e8a;
+  }
+  
+  .AddReportForm .createAccount small {
+    color: rgb(14, 13, 13);
+    font-weight: lighter;
+  }
+
+  /* ================================== */
+
+small:hover{
+  cursor: pointer;
+}
+
+.class1{
+  text-align: center;
+  background-color: #c6c6c7;
+  background-image: linear-gradient(to right,#aaaaad,#f7f7f7);
+  width: 80%;
+  margin: auto;
+  border-radius: 25px;
+  padding: 20px 0;
+}
+.class2{
+  display: inline-flex;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.userIcon{
+  color: #6c757d;
+    background-color: #fff;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    border-radius: 50%;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+}
+.userIcon1{
+  display: flex;
+  align-items: center;
+}
+
+hr{
+  width: 80%;
+  background-color: #000000;
+}
+.video{
+  margin: 100px;
+  padding: 0 10px;
+  font-size: 25px;
+}
+.video_icon{
+  margin: 0 8px 4px 0;
+}
+.profile{
+  color: #6c757d;
+}
+.profile:hover{
+  color: #6c757d;
+}

@@ -1,0 +1,21 @@
+.FilterPopup .Select{
+    /* position: relative; */
+    width: 100%;
+    /* max-height: 30px; */
+}
+.FilterPopup .title{
+    text-align: center;
+    height: 70px;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+    padding: 15px;
+    background-color: rgb(235, 235, 235);
+    border: 1px solid rgb(214, 214, 214);
+}
+.FilterPopup{
+    margin: 0px 0px 0px 0px;
+}
+
+.FilterPopup .SelectContainer {
+    width: 900px;
+}

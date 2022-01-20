@@ -1,0 +1,132 @@
+.PostQuestion .Select{
+    position: relative;
+    width: 220px;
+    padding: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+.PostQuestion .LocationFilters{
+    margin: -20px 0px 20px 80px;
+
+}
+.PostQuestion .title{
+    text-align: center;
+    height: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+    padding: 15px;
+    background-color: rgb(235, 235, 235);
+    border: 1px solid rgb(214, 214, 214);
+
+    
+}
+.PostQuestion{
+    border: 1px solid rgb(202, 202, 202);
+    margin: 0px 0px 0px 0px;
+}
+
+
+.PostQuestion .PostForm{
+    margin: 0px 0px 10px 10px;
+
+
+}
+
+.PostQuestion .LoggedUserIcon{
+    color: lavender;
+    height: 40px;
+    width: 40px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 100%;
+    background-color: rgb(13, 94, 141);
+    margin: 10px 5px 0px 0px;
+  }
+.PostQuestion .PostFormBody{
+    width: 100%;
+    padding: 3px;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+}
+.PostQuestion .PostFormBody textarea{
+    font-family: 'Darker Grotesque', sans-serif;
+    margin-top: 0px;
+    border-radius: 15px;
+    border: 1px solid #787878;
+    padding: 5px 5px 5px 15px;
+    height: 38px;
+    width: 400px;
+    transition: 0.2s;
+    margin: 10px 0px 0px 5px;
+    box-sizing: border-box;
+    resize: none;
+    overflow-y: hidden;
+
+  }
+  .PostQuestion .PostFormBody textarea:focus{
+    outline: none;
+    border: 1px solid #575ff3;
+  }
+  .PostQuestion .PostFormBody textarea::placeholder{
+    color: #bebebe;
+  }
+
+  .PostQuestion  .footer{
+      margin: 0px 0px 10px 100px;
+
+  }
+  .PostQuestion  .footer .PostButton{
+    font-family: 'Darker Grotesque', sans-serif;
+    color: #054231;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bolder;
+    transition: 0.1s;
+    cursor: pointer;
+    border: none;
+    margin: 10px 50px 10px 10px;
+    background: #4772b7;
+    box-shadow: 0px 5px 0px 0px #5087df;
+}
+.PostQuestion .PostFormBody .PostButton:active{
+    box-shadow: none;
+    transform: translateY(1px);
+    transition: all .1s linear;
+    outline: none;
+
+  }
+
+.PostQuestion  .footer .CloseButton{
+    font-family: 'Darker Grotesque', sans-serif;
+    color: #054231;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bolder;
+    transition: 0.1s;
+    cursor: pointer;
+    border: none;
+    margin: 10px 50px 10px 10px;
+    background: #7f7f7f;
+    box-shadow: 0px 5px 0px 0px #aaaaaa;
+}
+.PostQuestion .PostFormBody .CloseButton:active{
+    box-shadow: none;
+    transform: translateY(1px);
+    transition: all .1s linear;
+    outline: none;
+
+  }
+  .PostQuestion h5{
+      font-size: 15px;
+    margin: 10px 0px 10px 70px;
+    font-weight: 700;
+
+  }

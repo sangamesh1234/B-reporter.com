@@ -1,0 +1,63 @@
+
+
+  .QuestionForm{
+    width: 400px;
+    background-color: #3b4e9b;
+    position: absolute;
+    height: 55px;
+    margin: 0px 0px 0px 1020px;
+    top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    box-shadow: 3px 3px 5px #8d8d8d;
+
+}
+
+.QuestionForm textarea{
+    font-family: 'Darker Grotesque', sans-serif;
+    margin-top: 2px;
+    border-radius: 15px;
+    border: 1px solid #787878;
+    padding: 5px 5px 5px 10px;
+    height: 35px;
+    width: 600px;
+    transition: 0.2s;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    resize: none;
+  }
+.QuestionForm textarea:focus{
+    outline: none;
+    border: 1px solid #575ff3;
+  }
+ .QuestionForm textarea::placeholder{
+    color: #bebebe;
+  }
+
+.QuestionForm button{
+    font-family: 'Darker Grotesque', sans-serif;
+    color: #054231;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 0px 20px 0px 20px;
+    transition: 0.1s;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    margin: -3px -70px 0px 10px;
+    background: #4772b7;
+    box-shadow: 0px 5px 0px 0px #5087df;
+  }
+.QuestionForm button:hover{
+    box-shadow: none;
+    transform: translateY(1px);
+    transition: all .1s linear;
+  }
+  .QuestionForm  .QuestionForm button:focus{
+    outline: none;
+  }

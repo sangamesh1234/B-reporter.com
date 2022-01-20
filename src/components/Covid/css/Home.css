@@ -1,0 +1,21 @@
+.main{
+    background-color:#eceef0;
+    display: grid;
+    grid-template-columns: 15% 60% 25%;
+    padding: 8px;
+    margin-top: 70px;
+}
+.filter{
+    width: inherit;
+    /* background-color: rgb(75, 65, 62); */
+}
+
+.report_feed{
+    width: inherit;
+    /* background-color: rgb(73, 38, 26); */
+}
+
+.stat_feed{
+    width: inherit;
+    /* background-color: rgb(163, 50, 12); */
+}

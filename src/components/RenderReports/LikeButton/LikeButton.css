@@ -1,0 +1,16 @@
+.Likebutton .LikeIcon{
+    margin: -4px 4px 0px 0px;
+     color: #84868b;
+   }
+   .Likebutton{
+        width: 50px;
+        height: 10px;
+       position: relative;
+       color: rgb(129, 129, 129);
+       margin: 0px 0px 0px 0px;
+       font-size: 20px;
+       font-weight: normal;
+   }
+   .Likebutton:hover{
+     text-decoration: none;
+   }

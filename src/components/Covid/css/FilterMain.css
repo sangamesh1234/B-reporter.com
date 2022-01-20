@@ -1,0 +1,41 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+.filter-main{
+  width: 14%;
+  /* min-width: 198px; */
+  /* max-width: 200px; */
+  margin-left: 10px;
+  margin-top: 70px;
+  padding-right: 25px;
+  /* background-color: rgb(134, 132, 132); */
+  position: fixed;
+  z-index: 1000;
+  top: 0px;
+  box-shadow: 5px 5px 8px -9px rgba(0, 0, 0, 0.5);
+}
+
+.time{
+  width: fit-content;
+  margin-bottom: -10px;
+  margin-top: 10px;
+  display: flex;
+  /* background-color: brown; */
+}
+
+.timeCheck{
+  margin-top: -8px;
+  height: fit-content;
+}
+
+.filter-topic{
+  font-size: 20px;
+  font-weight: 600;
+  /* background-color: coral; */
+  margin-right: 10px;
+  width: fit-content;
+}
+
+.Select-category{
+  width: 100%;
+}

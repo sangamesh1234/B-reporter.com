@@ -1,0 +1,69 @@
+/* 
+.gooey{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 142px;
+  height: 40px;
+  margin: -20px 0 0 -71px;
+  background: white;
+  filter: contrast(20);
+}
+.gooey .dot{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 12px;
+    left: 15px;
+    filter: blur(4px);
+    background: #000;;
+    border-radius: 50%;
+    transform: translateX(0);
+    animation: dot 1.8s infinite;
+}
+    .gooey .dots{
+    transform: translateX(0);
+    margin-top: 12px;
+    margin-left: 31px;
+    animation: dots 1.8s infinite;
+}
+.gooey span{
+      display: block;
+      float: left;
+      width: 16px;
+      height: 16px;
+      margin-left: 16px;
+      filter: blur(4px);
+      background: #000;
+      border-radius: 50%;
+    }
+@keyframes dot{
+  50%{
+    transform: translateX(96px);
+  }
+}
+@keyframes dots{
+  50%{
+    transform: translateX(-31px);
+  }
+} */
+  #outline {
+    width:50px; height:50px;
+    margin:55px auto;
+    }
+    .circle {
+        width:50px; height:50px;
+        border-radius:50%;
+        border-top: 5px solid rgba(7, 7, 7, 0.966);
+        border-right: 5px solid rgba(7, 7, 7, 0.966);
+        border-bottom: 5px solid rgba(7, 7, 7, 0.966);
+        border-left:5px solid #ffffff;
+        -webkit-animation: circle 0.4s infinite linear;
+        animation: circle 0.4s infinite linear;
+        }
+    
+    @-webkit-keyframes circle { 
+        100% { -webkit-transform: rotate(360deg); } }
+    @keyframes circle { 
+        100% { transform: rotate(360deg); transform:rotate(360deg); } }
+

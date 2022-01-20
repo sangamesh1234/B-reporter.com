@@ -1,0 +1,10 @@
+.ImageGallery{
+  position: relative;
+  padding: 0px 0px 0px 0px ;
+  height: 350px;
+  width: 580px;
+  border-radius: 1%;
+  background-color:#060707 ;
+  border: solid 1px rgb(214, 212, 212) ;
+}
+
